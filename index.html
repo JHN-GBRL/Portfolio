@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/57b687de51.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="logo1.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>  
+            <div class="header-text">
+                <p>Web Development</p>
+                <h1>Hi!, I'm <span>John</span> Gabriel</h1>
+            </div>
+        </div>
+    </div>
+    <!-------------about-------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="user.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>As a student with a basic knowledge of web designing, it's likely just beginning to explore the exciting world of creating websites.</p>
+
+                    <div class="tab-titles">
+                        <P class="tab-links active-link" onclick="opentab('skills', event)">Skills</P>
+                        <P class="tab-links" onclick="opentab('experience', event)">Experience</P>
+                        <P class="tab-links" onclick="opentab('education', event)">Education</P>
+                    </div>
+                    <div class="tab-contents' active-tab" id="skills">
+                        <ul>
+                            <li><span>Basic knowledge</span><br>Web Development<br>Web Design</li>
+                            <li><span>Web Development</span><br>Basic knowledge</li>
+                            <li><span>Web Design</span><br>Basic knowledge</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Basic knowledge</span><br>Bootstrap<br>Java<br>HTML<br>CSS</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>BSCS</span><br>1st Year</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-------------services-------------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1> 
+            <div class="services-list">
+                <div>
+                    <i class="fa-brands fa-codepen"></i>
+                    <h2>Web Design</h2>
+                    <P>Web design is the creation of websites and pages to reflect a company’s brand and information and ensure a user-friendly experience. </P>
+                    <a href="https://www.indeed.com/career-advice/finding-a-job/what-is-web-designing#:~:text=Web%20design%20helps%20companies%20build,and%20its%20products%20or%20services.">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>Web Development</h2>
+                    <P>Web development refers to the creating, building, and maintaining of websites. It includes aspects such as web design, web publishing, web programming, and database management.</P>
+                    <a href="https://www.geeksforgeeks.org/web-development/">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-------------portfolio-------------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1> 
+            <div class="work-list">
+                <div class="work">
+                    <img src="image1.jpg">
+                    <div class="layer">
+                        <h3>Intro to Bootstrap</h3>
+                        <P>An activity using the knowlodge of Intro to Bootstrap.</P>
+                        <a href="https://jhn-gbrl.github.io/Grid-Bootstrap05/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>    
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="image2.jpg">
+                    <div class="layer">
+                        <h3>Basic Grid System</h3>
+                        <P>Basic grid system using Bootstrap 05.</P>
+                        <a href="https://jhn-gbrl.github.io/2QM2-Grid-System/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>    
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="image3.jpg">
+                    <div class="layer">
+                        <h3>Grid Systems</h3>
+                        <P>A grid system that uses a responsive design.</P>
+                        <a href="https://jhn-gbrl.github.io/2QM2---Grid-Systems---Lab-Exe/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>    
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="image4.jpg">
+                    <div class="layer">
+                        <h3>Responsive tables</h3>
+                        <P>A responsive table list with order in Mase's Restaurant.</P>
+                        <a href="https://jhn-gbrl.github.io/Mase-Restaurant/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>    
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="image5.jpg">
+                    <div class="layer">
+                        <h3>Image and Jumbotron</h3>
+                        <P>the images of branches of AFP using jumbotron.</P>
+                        <a href="https://jhn-gbrl.github.io/jumbotron/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>    
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="image6.jpg">
+                    <div class="layer">
+                        <h3>Typography</h3>
+                        <P>A short story for children with moral values.</P>
+                        <a href="https://jhn-gbrl.github.io/Children-Story-Typography/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>    
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="image7.jpg">
+                    <div class="layer">
+                        <h3>Landing Page</h3>
+                        <P>A webpage that can accomodate customers regarding personal security.</P>
+                        <a href="https://jhn-gbrl.github.io/Black-Thunder-Security-Agency/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>    
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-------------contact-------------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>johngabrielperjes@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>+63 9286376998</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/shackem909"><i class="fa-brands fa-square-facebook"></i></a>
+                        <a href="https://www.instagram.com/jhn__gbrl/"><i class="fa-brands fa-square-instagram"></i></a>
+                        <a href="https://github.com/JHN-GBRL"><i class="fa-brands fa-square-github"></i></a>
+                    </div>
+                    <a href="RESUMEEE.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+
+    <script>
+
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycby8UeZpo_IUVUgvJockyQTbpQaMoMz8MFEva_5pxPqLuwyUluf16LioyAz06OUwN62S/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
